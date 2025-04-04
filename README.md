@@ -72,3 +72,5 @@ quarkus.rest-client.my-client.tls-configuration-name=javax.net.ssl
     System.setProperty("javax.net.ssl.trustStorePassword", "changeit");
 }
 ```
+
+*UPDATE 04/04/2025* : Tested with Quarkus 3.21.1, now it's working
