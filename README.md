@@ -68,7 +68,7 @@ quarkus.rest-client.my-client.tls-configuration-name=javax.net.ssl
 
 ```java
     static {
-        System.setProperty("javax.net.ssl.trustStore", "./cacerts_bad");
-        System.setProperty("javax.net.ssl.trustStorePassword", "changeit");
-    }
+    System.setProperty("javax.net.ssl.trustStore", "./cacerts_bad");
+    System.setProperty("javax.net.ssl.trustStorePassword", "changeit");
+}
 ```
